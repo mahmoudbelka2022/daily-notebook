@@ -1,7 +1,6 @@
 /* App.css */
 body {
   font-family: 'Montserrat', sans-serif;
-
   margin: 0;
   padding: 20px;
   background: #f4f4f4; /* Light background for contrast */
@@ -61,4 +60,17 @@ li {
 small {
   display: block; /* Show timestamp on a new line */
   color: gray;
+}
+
+/* App.css */
+.input-container {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 10px; /* Space between inputs */
+}
+
+.date-time-container {
+  display: flex;
+  flex-direction: column; /* Stack date-time input and button */
+  gap: 10px; /* Space between inputs */
 }

@@ -167,6 +167,8 @@ function App() {
               dateFormat="Pp"
               isClearable
             />
+            <h4>click to add time</h4>
+            <h1>⬇️</h1>
             <input
               type="time"
               value={noteTime}
